@@ -195,7 +195,7 @@ const MainLayout = () => {
 					[classes.contentShift]: open
 				})}
 			>
-				<div className={classes.drawerHeader}>Hola</div>
+				<div className={classes.drawerHeader} />
 
 				<Route path="/" exact>
 					<HomeLayout />

@@ -172,6 +172,150 @@
 			"letter": "G",
 			"name": "Substring Search",
 			"status": 0
+		},
+		{
+			"contest": 219,
+			"letter": "D",
+			"name": "Choosing Capital for Treeland",
+			"status": 0
+		},
+		{
+			"contest": 1324,
+			"letter": "F",
+			"name": "Maximum White Subtree",
+			"status": 0
+		},
+		{
+			"contest": 1187,
+			"letter": "E",
+			"name": "Tree Painting",
+			"status": 0
+		},
+		{
+			"contest": 1092,
+			"letter": "F",
+			"name": "Tree with Maximum Cost",
+			"status": 0
+		},
+		{
+			"contest": 960,
+			"letter": "E",
+			"name": "Alternating Tree",
+			"status": 0
+		},
+		{
+			"contest": 1060,
+			"letter": "E",
+			"name": "Sergey and Subway",
+			"status": 0
+		},
+		{
+			"contest": 914,
+			"letter": "G",
+			"name": "Sum the Fibonacci",
+			"status": 0
+		},
+		{
+			"contest": 1119,
+			"letter": "H",
+			"name": "Triple",
+			"status": 0
+		},
+		{
+			"contest": 512,
+			"letter": "C",
+			"name": "Fox And Dinner",
+			"status": 0
+		},
+		{
+			"contest": 1082,
+			"letter": "G",
+			"name": "Petya and Graph",
+			"status": 0
+		},
+		{
+			"contest": 1146,
+			"letter": "G",
+			"name": "Zoning Restrictions",
+			"status": 0
+		},
+		{
+			"contest": 1097,
+			"letter": "D",
+			"name": "Makoto and a Blackboard",
+			"status": 0
+		},
+		{
+			"contest": 665,
+			"letter": "F",
+			"name": "Four Divisors",
+			"status": 0
+		},
+		{
+			"contest": 8,
+			"letter": "C",
+			"name": "Looking for Order",
+			"status": 0
+		},
+		{
+			"contest": 16,
+			"letter": "E",
+			"name": "Fish",
+			"status": 0
+		},
+		{
+			"contest": 71,
+			"letter": "E",
+			"name": "Nuclear Fusion",
+			"status": 0
+		},
+		{
+			"contest": 1051,
+			"letter": "D",
+			"name": "Bicolorings",
+			"status": 0
+		},
+		{
+			"contest": 165,
+			"letter": "E",
+			"name": "Compatible Numbers",
+			"status": 0
+		},
+		{
+			"contest": 383,
+			"letter": "E",
+			"name": "Vowels",
+			"status": 0
+		},
+		{
+			"contest": 449,
+			"letter": "D",
+			"name": "Jzzhu and Numbers",
+			"status": 0
+		},
+		{
+			"contest": 321,
+			"letter": "E",
+			"name": "Ciel and Gondolas",
+			"status": 0
+		},
+		{
+			"contest": 673,
+			"letter": "E",
+			"name": "Levels and Regions",
+			"status": 0
+		},
+		{
+			"contest": 1083,
+			"letter": "F",
+			"name": "The Fair Nut and Rectangles",
+			"status": 0
+		},
+		{
+			"contest": 932,
+			"letter": "F",
+			"name": "Escape Through Leaf",
+			"status": 0
 		}
 	]
 }

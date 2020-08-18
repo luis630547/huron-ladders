@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { Typography, TextField, Button } from '@material-ui/core';
+import { Typography, TextField, Button, Grid } from '@material-ui/core';
 import Notification from '../components/Notification';
-
-// zustand user, fetchAllInfo
+import Logo from '../assets/algoritmiaESCOM_logo.svg';
 import { useUserStore, useProblemStore } from '../zustand';
 
 const HomeLayout = () => {
@@ -39,6 +38,12 @@ const HomeLayout = () => {
 	return (
 		<div className="homeLayout">
 			<Notification openState={open} />
+			<Grid container justify="center">
+				<Grid item md={2} xs={4}>
+					<img src={Logo} alt="Club de Algoritmia ESCOM" />
+				</Grid>
+			</Grid>
+
 			<Typography variant="h2" align="center">
 				Huron Ladders
 			</Typography>
