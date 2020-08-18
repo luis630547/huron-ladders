@@ -4,100 +4,252 @@
 			"contest": 1399,
 			"letter": "A",
 			"name": "Remove Smallest",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "greedy" ]
 		},
 		{
 			"contest": 1399,
 			"letter": "B",
 			"name": "Gifts Fixing",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "greedy" ]
 		},
 		{
 			"contest": 1391,
 			"letter": "A",
 			"name": "Suborrays",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "greedy" ]
 		},
 		{
 			"contest": 1391,
 			"letter": "B",
 			"name": "Fix You",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "greedy" ]
 		},
 		{
-			"contest": 4,
-			"letter": "C",
-			"name": "Registration System",
-			"status": 0
-		}
-	],
-
-	"intermedios": [
+			"contest": 263,
+			"letter": "A",
+			"name": "Beautiful Matrix",
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "arrays" ]
+		},
+		{
+			"contest": 266,
+			"letter": "B",
+			"name": "Queue at the School",
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "arrays" ]
+		},
+		{
+			"contest": 266,
+			"letter": "A",
+			"name": "Stones on the Table",
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "arrays" ]
+		},
+		{
+			"contest": 155,
+			"letter": "A",
+			"name": "I_love_%username%",
+			"status": 0,
+			"difficulty": "medium",
+			"topics": [ "arrays" ]
+		},
 		{
 			"contest": 189,
 			"letter": "A",
 			"name": "Cut Ribbon",
-			"status": 0
+			"status": 0,
+			"difficulty": "hard",
+			"topics": [ "arrays" ]
+		},
+		{
+			"contest": 158,
+			"letter": "C",
+			"name": "Cd and pwd commands",
+			"status": 0,
+			"difficulty": "hard",
+			"topics": [ "stacks" ]
+		},
+		{
+			"contest": 1092,
+			"letter": "D1",
+			"name": "Great Vova Wall (Version 1)",
+			"status": 0,
+			"difficulty": "hard",
+			"topics": [ "stacks" ]
+		},
+		{
+			"contest": 81,
+			"letter": "A",
+			"name": "Plug-in",
+			"status": 0,
+			"difficulty": "hard",
+			"topics": [ "staks" ]
+		},
+		{
+			"contest": 329,
+			"letter": "B",
+			"name": "Biridian Forest",
+			"status": 0,
+			"difficulty": "hard",
+			"topics": [ "queue" ]
+		},
+		{
+			"contest": 60,
+			"letter": "B",
+			"name": "Serial Time!",
+			"status": 0,
+			"difficulty": "hard",
+			"topics": [ "queue" ]
+		},
+		{
+			"contest": 199,
+			"letter": "D",
+			"name": "Jumping on Walls",
+			"status": 0,
+			"difficulty": "hard",
+			"topics": [ "queue" ]
+		},
+		{
+			"contest": 996,
+			"letter": "A",
+			"name": "Hit the Lottery",
+			"status": 0,
+			"difficulty": "medium",
+			"topics": [ "Recursividad", "Backtracking" ]
+		},
+		{
+			"contest": 1113,
+			"letter": "A",
+			"name": "Sasha and His Trip",
+			"status": 0,
+			"difficulty": "medium",
+			"topics": [ "Recursividad", "Backtracking" ]
+		},
+		{
+			"contest": 1362,
+			"letter": "A",
+			"name": "Johnny and Ancient Computer",
+			"status": 0,
+			"difficulty": "medium",
+			"topics": [ "Bit Manipulation" ]
+		},
+		{
+			"contest": 1362,
+			"letter": "B",
+			"name": "Johnny and His Hobbies",
+			"status": 0,
+			"difficulty": "medium",
+			"topics": [ "Bit Manipulation" ]
+		},
+		{
+			"contest": 1362,
+			"letter": "C",
+			"name": "Johnny and Another Rating Drop",
+			"status": 0,
+			"difficulty": "hard",
+			"topics": [ "Bit Manipulation" ]
+		},
+		{
+			"contest": 1345,
+			"letter": "B",
+			"name": "Card Constructions",
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "Binary Search" ]
 		},
 		{
 			"contest": 230,
 			"letter": "B",
 			"name": "T-primes",
-			"status": 0
-		},
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math" ]
+		}
+	],
+
+	"intermedios": [
 		{
 			"contest": 455,
 			"letter": "A",
 			"name": "Boredom",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 489,
 			"letter": "C",
 			"name": "Given Length and Sum of Digits...",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 520,
 			"letter": "B",
 			"name": "Two Buttons",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1360,
 			"letter": "D",
 			"name": "Buying Shovels",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 479,
 			"letter": "C",
 			"name": "Exams",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1041,
 			"letter": "A",
 			"name": "Heist",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1348,
 			"letter": "B",
 			"name": "Phoenix and Beauty",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 550,
 			"letter": "C",
 			"name": "Divisibility by Eight",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 515,
 			"letter": "C",
 			"name": "Drazil and Factorial",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		}
 	],
 	"avanzados": [
@@ -105,217 +257,289 @@
 			"contest": 455,
 			"letter": "D",
 			"name": "Serega and Fun",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 632,
 			"letter": "E",
 			"name": "Thief in a Shop",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 954,
 			"letter": "I",
 			"name": "Yet Another String Matching Problem",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 528,
 			"letter": "D",
 			"name": "Fuzzy Search",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 755,
 			"letter": "G",
 			"name": "PolandBall and Many Other Balls",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 438,
 			"letter": "E",
 			"name": "The Child and Binary Tree",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 993,
 			"letter": "E",
 			"name": "Nikita and Order Statistics",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 289,
 			"letter": "E",
 			"name": "Ladies' Shop",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 827,
 			"letter": "E",
 			"name": "Rusty String",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1257,
 			"letter": "G",
 			"name": "Divisor Set",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1251,
 			"letter": "F",
 			"name": "Red-White Fence",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1334,
 			"letter": "G",
 			"name": "Substring Search",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 219,
 			"letter": "D",
 			"name": "Choosing Capital for Treeland",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1324,
 			"letter": "F",
 			"name": "Maximum White Subtree",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1187,
 			"letter": "E",
 			"name": "Tree Painting",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1092,
 			"letter": "F",
 			"name": "Tree with Maximum Cost",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 960,
 			"letter": "E",
 			"name": "Alternating Tree",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1060,
 			"letter": "E",
 			"name": "Sergey and Subway",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 914,
 			"letter": "G",
 			"name": "Sum the Fibonacci",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1119,
 			"letter": "H",
 			"name": "Triple",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 512,
 			"letter": "C",
 			"name": "Fox And Dinner",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1082,
 			"letter": "G",
 			"name": "Petya and Graph",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1146,
 			"letter": "G",
 			"name": "Zoning Restrictions",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1097,
 			"letter": "D",
 			"name": "Makoto and a Blackboard",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 665,
 			"letter": "F",
 			"name": "Four Divisors",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 8,
 			"letter": "C",
 			"name": "Looking for Order",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 16,
 			"letter": "E",
 			"name": "Fish",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 71,
 			"letter": "E",
 			"name": "Nuclear Fusion",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1051,
 			"letter": "D",
 			"name": "Bicolorings",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 165,
 			"letter": "E",
 			"name": "Compatible Numbers",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 383,
 			"letter": "E",
 			"name": "Vowels",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 449,
 			"letter": "D",
 			"name": "Jzzhu and Numbers",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 321,
 			"letter": "E",
 			"name": "Ciel and Gondolas",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 673,
 			"letter": "E",
 			"name": "Levels and Regions",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 1083,
 			"letter": "F",
 			"name": "The Fair Nut and Rectangles",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		},
 		{
 			"contest": 932,
 			"letter": "F",
 			"name": "Escape Through Leaf",
-			"status": 0
+			"status": 0,
+			"difficulty": "easy",
+			"topics": [ "math", "greedy" ]
 		}
 	]
 }

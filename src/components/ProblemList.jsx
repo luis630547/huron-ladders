@@ -11,7 +11,8 @@ import {
 	Link,
 	LinearProgress,
 	Grid,
-	Hidden
+	Hidden,
+	Chip
 } from '@material-ui/core';
 import DoneIcon from '@material-ui/icons/Done';
 
@@ -61,10 +62,22 @@ const ProblemList = ({ problems, isLoading }) => {
 										</Link>
 									</TableCell>
 									<Hidden xsDown>
-										<TableCell>easy</TableCell>
+										<TableCell>
+											{problem.difficulty}
+										</TableCell>
 									</Hidden>
 									<Hidden xsDown>
-										<TableCell>sorting, math</TableCell>
+										<TableCell>
+											{problem.topics.map((t) => (
+												<Chip
+													size="small"
+													label={t}
+													style={{
+														marginRight: '5px'
+													}}
+												/>
+											))}
+										</TableCell>
 									</Hidden>
 									<TableCell>
 										{problem.status ? (
