@@ -1,0 +1,114 @@
+{
+	"basicos": [
+		{
+			"id": 1,
+			"contest": 1399,
+			"letter": "A",
+			"name": "Remove Smallest",
+			"status": 0
+		},
+		{
+			"id": 2,
+			"contest": 1399,
+			"letter": "B",
+			"name": "Gifts Fixing",
+			"status": 0
+		},
+		{
+			"id": 3,
+			"contest": 1391,
+			"letter": "A",
+			"name": "Suborrays",
+			"status": 0
+		},
+		{
+			"id": 4,
+			"contest": 1391,
+			"letter": "B",
+			"name": "Fix You",
+			"status": 0
+		},
+		{
+			"id": 5,
+			"contest": 4,
+			"letter": "C",
+			"name": "Registration System",
+			"status": 0
+		}
+	],
+
+	"intermedios": [
+		{
+			"id": 3,
+			"contest": 1391,
+			"letter": "A",
+			"name": "Suborrays",
+			"status": 0
+		},
+		{
+			"id": 2,
+			"contest": 1399,
+			"letter": "B",
+			"name": "Gifts Fixing",
+			"status": 0
+		},
+		{
+			"id": 5,
+			"contest": 4,
+			"letter": "C",
+			"name": "Registration System",
+			"status": 0
+		},
+		{
+			"id": 4,
+			"contest": 1391,
+			"letter": "B",
+			"name": "Fix You",
+			"status": 0
+		},
+		{
+			"id": 1,
+			"contest": 1399,
+			"letter": "A",
+			"name": "Remove Smallest",
+			"status": 0
+		}
+	],
+	"avanzados": [
+		{
+			"id": 3,
+			"contest": 1391,
+			"letter": "A",
+			"name": "Suborrays",
+			"status": 0
+		},
+		{
+			"id": 2,
+			"contest": 1399,
+			"letter": "B",
+			"name": "Gifts Fixing",
+			"status": 0
+		},
+		{
+			"id": 1,
+			"contest": 1399,
+			"letter": "A",
+			"name": "Remove Smallest",
+			"status": 0
+		},
+		{
+			"id": 5,
+			"contest": 4,
+			"letter": "C",
+			"name": "Registration System",
+			"status": 0
+		},
+		{
+			"id": 4,
+			"contest": 1391,
+			"letter": "B",
+			"name": "Fix You",
+			"status": 0
+		}
+	]
+}
