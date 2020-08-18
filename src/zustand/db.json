@@ -1,35 +1,30 @@
 {
 	"basicos": [
 		{
-			"id": 1,
 			"contest": 1399,
 			"letter": "A",
 			"name": "Remove Smallest",
 			"status": 0
 		},
 		{
-			"id": 2,
 			"contest": 1399,
 			"letter": "B",
 			"name": "Gifts Fixing",
 			"status": 0
 		},
 		{
-			"id": 3,
 			"contest": 1391,
 			"letter": "A",
 			"name": "Suborrays",
 			"status": 0
 		},
 		{
-			"id": 4,
 			"contest": 1391,
 			"letter": "B",
 			"name": "Fix You",
 			"status": 0
 		},
 		{
-			"id": 5,
 			"contest": 4,
 			"letter": "C",
 			"name": "Registration System",
@@ -39,75 +34,143 @@
 
 	"intermedios": [
 		{
-			"id": 3,
-			"contest": 1391,
+			"contest": 189,
 			"letter": "A",
-			"name": "Suborrays",
+			"name": "Cut Ribbon",
 			"status": 0
 		},
 		{
-			"id": 2,
-			"contest": 1399,
+			"contest": 230,
 			"letter": "B",
-			"name": "Gifts Fixing",
+			"name": "T-primes",
 			"status": 0
 		},
 		{
-			"id": 5,
-			"contest": 4,
+			"contest": 455,
+			"letter": "A",
+			"name": "Boredom",
+			"status": 0
+		},
+		{
+			"contest": 489,
 			"letter": "C",
-			"name": "Registration System",
+			"name": "Given Length and Sum of Digits...",
 			"status": 0
 		},
 		{
-			"id": 4,
-			"contest": 1391,
+			"contest": 520,
 			"letter": "B",
-			"name": "Fix You",
+			"name": "Two Buttons",
 			"status": 0
 		},
 		{
-			"id": 1,
-			"contest": 1399,
+			"contest": 1360,
+			"letter": "D",
+			"name": "Buying Shovels",
+			"status": 0
+		},
+		{
+			"contest": 479,
+			"letter": "C",
+			"name": "Exams",
+			"status": 0
+		},
+		{
+			"contest": 1041,
 			"letter": "A",
-			"name": "Remove Smallest",
+			"name": "Heist",
+			"status": 0
+		},
+		{
+			"contest": 1348,
+			"letter": "B",
+			"name": "Phoenix and Beauty",
+			"status": 0
+		},
+		{
+			"contest": 550,
+			"letter": "C",
+			"name": "Divisibility by Eight",
+			"status": 0
+		},
+		{
+			"contest": 515,
+			"letter": "C",
+			"name": "Drazil and Factorial",
 			"status": 0
 		}
 	],
 	"avanzados": [
 		{
-			"id": 3,
-			"contest": 1391,
-			"letter": "A",
-			"name": "Suborrays",
+			"contest": 455,
+			"letter": "D",
+			"name": "Serega and Fun",
 			"status": 0
 		},
 		{
-			"id": 2,
-			"contest": 1399,
-			"letter": "B",
-			"name": "Gifts Fixing",
+			"contest": 632,
+			"letter": "E",
+			"name": "Thief in a Shop",
 			"status": 0
 		},
 		{
-			"id": 1,
-			"contest": 1399,
-			"letter": "A",
-			"name": "Remove Smallest",
+			"contest": 954,
+			"letter": "I",
+			"name": "Yet Another String Matching Problem",
 			"status": 0
 		},
 		{
-			"id": 5,
-			"contest": 4,
-			"letter": "C",
-			"name": "Registration System",
+			"contest": 528,
+			"letter": "D",
+			"name": "Fuzzy Search",
 			"status": 0
 		},
 		{
-			"id": 4,
-			"contest": 1391,
-			"letter": "B",
-			"name": "Fix You",
+			"contest": 755,
+			"letter": "G",
+			"name": "PolandBall and Many Other Balls",
+			"status": 0
+		},
+		{
+			"contest": 438,
+			"letter": "E",
+			"name": "The Child and Binary Tree",
+			"status": 0
+		},
+		{
+			"contest": 993,
+			"letter": "E",
+			"name": "Nikita and Order Statistics",
+			"status": 0
+		},
+		{
+			"contest": 289,
+			"letter": "E",
+			"name": "Ladies' Shop",
+			"status": 0
+		},
+		{
+			"contest": 827,
+			"letter": "E",
+			"name": "Rusty String",
+			"status": 0
+		},
+		{
+			"contest": 1257,
+			"letter": "G",
+			"name": "Divisor Set",
+			"status": 0
+		},
+		{
+			"contest": 1251,
+			"letter": "F",
+			"name": "Red-White Fence",
+			"status": 0
+		},
+		{
+			"contest": 1334,
+			"letter": "G",
+			"name": "Substring Search",
 			"status": 0
 		}
 	]
