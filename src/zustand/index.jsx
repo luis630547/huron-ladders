@@ -3,7 +3,7 @@ import data from './db.json';
 import axios from 'axios';
 const { basicos, intermedios, avanzados } = data;
 
-export const useUserStore = create((set, get) => ({
+export const useUserStore = create((set) => ({
 	user: {},
 	error: false,
 	fetchUser: async (handle) => {
@@ -13,19 +13,24 @@ export const useUserStore = create((set, get) => ({
 				`https://codeforces.com/api/user.info?handles=${handle}`
 			);
 			set({ user: response.data.result[0] });
-			console.log(get().user);
 		} catch (error) {
 			set({ error: true });
 		}
 	}
 }));
 
-export const useProblemStore = create((set) => ({
+export const useProblemStore = create((set, get) => ({
 	basicos,
 	intermedios,
 	avanzados,
+	total: 0,
+	totalBasicos: 0,
+	totalIntermedios: 0,
+	totalAvanzados: 0,
 	error: false,
 	fetchSolvedProblems: async (handle) => {
+		set({ total: 0 })
+
 		let cleared = [ ...basicos ];
 		cleared.forEach((p) => {
 			p.status = 0;
@@ -34,7 +39,7 @@ export const useProblemStore = create((set) => ({
 
 		cleared = [ ...intermedios ];
 		cleared.forEach((p) => {
-			p.status = 0;
+			p.status = 0;	
 		});
 		set({ intermedios: cleared });
 
@@ -45,6 +50,7 @@ export const useProblemStore = create((set) => ({
 		set({ avanzados: cleared });
 
 		try {
+			let totalProblemsSolved = 0;
 			const response = await axios(
 				`https://codeforces.com/api/user.status?handle=${handle}`
 			);
@@ -61,9 +67,13 @@ export const useProblemStore = create((set) => ({
 				);
 				if (solution && solution.verdict === 'OK') {
 					problem.status = solution.id;
+					totalProblemsSolved++;
 				}
 			});
 			set({ basicos: newBasicos });
+			set({ totalBasicos: totalProblemsSolved })
+
+			totalProblemsSolved = 0;
 
 			let newIntermedios = [ ...intermedios ];
 			newIntermedios.forEach((problem) => {
@@ -74,9 +84,13 @@ export const useProblemStore = create((set) => ({
 				);
 				if (solution && solution.verdict === 'OK') {
 					problem.status = solution.id;
+					totalProblemsSolved++;
 				}
 			});
 			set({ intermedios: newIntermedios });
+			set({ totalIntermedios: totalProblemsSolved });
+
+			totalProblemsSolved = 0;
 
 			let newAvanzados = [ ...avanzados ];
 			newAvanzados.forEach((problem) => {
@@ -87,10 +101,14 @@ export const useProblemStore = create((set) => ({
 				);
 				if (solution && solution.verdict === 'OK') {
 					problem.status = solution.id;
+					totalProblemsSolved++;
 				}
 			});
 			set({ avanzados: newAvanzados });
-			console.log(basicos, intermedios, avanzados);
+			set({ totalAvanzados: totalProblemsSolved });
+
+			set({ total: get().totalBasicos + get().totalIntermedios + get().totalAvanzados })
+			console.log(get().total);
 		} catch (error) {
 			set({ error: true });
 		}

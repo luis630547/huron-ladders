@@ -5,7 +5,9 @@ import {
 	Menu as MenuIcon,
 	ChevronLeft as ChevronLeftIcon,
 	ChevronRight as ChevronRightIcon,
-	MoveToInbox as InboxIcon
+	Home as HomeIcon,
+	AccountCircle as UserIcon,
+	List as ListIcon
 } from '@material-ui/icons';
 import { Link, Route } from 'react-router-dom';
 import {
@@ -22,6 +24,7 @@ import {
 } from '@material-ui/core';
 
 import HomeLayout from './HomeLayout';
+import ProfileLayout from "./ProfileLayout";
 import ProblemListLayout from './ProblemListLayout';
 import UserId from '../components/UserId';
 
@@ -35,7 +38,8 @@ const useStyles = makeStyles((theme) => ({
 		transition: theme.transitions.create([ 'margin', 'width' ], {
 			easing: theme.transitions.easing.sharp,
 			duration: theme.transitions.duration.leavingScreen
-		})
+		}),
+		backgroundColor: "#20507A",
 	},
 	appBarShift: {
 		width: `calc(100% - ${drawerWidth}px)`,
@@ -85,9 +89,7 @@ const useStyles = makeStyles((theme) => ({
 
 	menuLink: {
 		textDecoration: 'none',
-		color: '#000',
-		display: 'block',
-		width: '100%'
+		color: "#000",
 	}
 }));
 
@@ -145,49 +147,49 @@ const MainLayout = () => {
 				<Divider />
 
 				<List>
-					<ListItem button>
-						<ListItemIcon>
-							<InboxIcon />
-						</ListItemIcon>
 						<Link to="/" className={classes.menuLink}>
-							Inicio
-						</Link>
-					</ListItem>
 					<ListItem button>
 						<ListItemIcon>
-							<InboxIcon />
+							<HomeIcon style={{color: "#20507A"}} />
 						</ListItemIcon>
-						<Link to="/profile" className={classes.menuLink}>
-							Perfil
-						</Link>
+							Inicio
 					</ListItem>
+						</Link>
+						<Link to="/profile" className={classes.menuLink}>
+					<ListItem button>
+						<ListItemIcon>
+							<UserIcon style={{color: "#20507A"}} />
+						</ListItemIcon>
+							Perfil
+					</ListItem>
+						</Link>
 				</List>
 				<Divider />
 				<List>
-					<ListItem button>
-						<ListItemIcon>
-							<InboxIcon />
-						</ListItemIcon>
 						<Link to="/basicos" className={classes.menuLink}>
+					<ListItem button>
+						<ListItemIcon>
+							<ListIcon style={{color: "#20507A"}} />
+						</ListItemIcon>
 							Hurones Básicos
-						</Link>
 					</ListItem>
-					<ListItem button>
-						<ListItemIcon>
-							<InboxIcon />
-						</ListItemIcon>
+						</Link>
 						<Link to="/intermedios" className={classes.menuLink}>
-							Hurones Intermedios
-						</Link>
-					</ListItem>
 					<ListItem button>
 						<ListItemIcon>
-							<InboxIcon />
+						<ListIcon style={{color: "#20507A"}} />
 						</ListItemIcon>
-						<Link to="/avanzados" className={classes.menuLink}>
-							Hurones Avanzados
-						</Link>
+							Hurones Intermedios
 					</ListItem>
+						</Link>
+						<Link to="/avanzados" className={classes.menuLink}>
+					<ListItem button>
+						<ListItemIcon>
+						<ListIcon style={{color: "#20507A"}} />
+						</ListItemIcon>
+							Hurones Avanzados
+					</ListItem>
+						</Link>
 				</List>
 			</Drawer>
 			<main
@@ -199,6 +201,9 @@ const MainLayout = () => {
 
 				<Route path="/" exact>
 					<HomeLayout />
+				</Route>
+				<Route path="/profile">
+					<ProfileLayout />
 				</Route>
 				<Route path="/basicos">
 					<ProblemListLayout huron={1} />

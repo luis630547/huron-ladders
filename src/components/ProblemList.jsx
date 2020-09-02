@@ -41,11 +41,12 @@ const ProblemList = ({ problems, isLoading }) => {
 						</TableHead>
 						<TableBody>
 							{problems.map((problem, id) => (
-								<TableRow key={id}>
+								<TableRow key={`${problem.contest}${problem.letter}`}>
 									<TableCell>{id + 1}</TableCell>
 									<Hidden xsDown>
 										<TableCell>
 											<Link
+												style={{color: "#20507A"}}
 												href={`https://codeforces.com/problemset/problem/${problem.contest}/${problem.letter}`}
 											>
 												{problem.contest}-{problem.letter}
@@ -54,6 +55,7 @@ const ProblemList = ({ problems, isLoading }) => {
 									</Hidden>
 									<TableCell>
 										<Link
+											style={{color: "#20507A"}}
 											rel="noopener"
 											target="_blank"
 											href={`https://codeforces.com/problemset/problem/${problem.contest}/${problem.letter}`}
@@ -83,7 +85,7 @@ const ProblemList = ({ problems, isLoading }) => {
 										{problem.status ? (
 											<Button
 												variant="contained"
-												color="primary"
+												style={{backgroundColor: "#20507A", color: "#fff"}}
 												size="small"
 												rel="noopener"
 												target="_blank"

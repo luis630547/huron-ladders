@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
-import { Button, Avatar, makeStyles } from '@material-ui/core';
+import { Button, Avatar, makeStyles, Hidden } from '@material-ui/core';
 import { useUserStore } from '../zustand';
 
 const useStyles = makeStyles((theme) => ({
 	avatarStyle: {
-		width: theme.spacing(3),
-		height: theme.spacing(3)
+		marginLeft: "1rem",
+		
 	}
 }));
 
@@ -15,7 +15,12 @@ const UserId = () => {
 	if (user && user.handle) {
 		return (
 			<Fragment>
-				<Button color="inherit">{user.firstName}</Button>
+				<Button color="inherit" href="/profile">
+					{user.firstName}{` `}
+					<Hidden only="xs">
+						{user.lastName}
+					</Hidden>
+				</Button>
 				<Avatar src={user.avatar} className={classes.avatarStyle} />
 			</Fragment>
 		);

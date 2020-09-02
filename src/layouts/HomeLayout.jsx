@@ -48,8 +48,8 @@ const HomeLayout = () => {
 				Huron Ladders
 			</Typography>
 			<Typography variant="subtitle1" align="center">
-				Este es un proyecto open source creado para el Club de
-				Algoritmia de ESCOM.
+				Lista de problemas sobre los diferentes temas que se ven dentro
+				del club de Algoritmia de ESCOM
 			</Typography>
 			<form
 				onSubmit={handleSubmit}
@@ -85,9 +85,9 @@ const HomeLayout = () => {
 					type="submit"
 					disabled={isLoading}
 					variant="contained"
-					color="primary"
+					style={{backgroundColor: isLoading ? "" : "#20507A", color: "#fff" }}
 				>
-					Search
+					Iniciar sesión
 				</Button>
 			</form>
 		</div>
